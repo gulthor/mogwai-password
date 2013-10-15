@@ -1,0 +1,27 @@
+{
+  "name": "mogwai-password",
+  "version": "0.0.0",
+  "description": "Mogwai plugin adding a bcrypt password field to a model/node",
+  "main": "index.coffee",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gulthor/mogwai-password.git"
+  },
+  "keywords": [
+    "mogwai",
+    "plugin",
+    "password",
+    "bcrypt"
+  ],
+  "author": "Jean-Baptiste Musso <jbmusso+github@gmail.com> (https://github.com/gulthor)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gulthor/mogwai-password/issues"
+  },
+  "dependencies": {
+    "bcrypt": "~0.7.7"
+  }
+}
